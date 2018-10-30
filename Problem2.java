@@ -28,12 +28,7 @@ public class Demo {
 				}
 			}
 			System.out.println(arr);
-			BigInteger total = BigInteger.valueOf(0);
-			for(int j =0;j<arr.size();j++)
-			{
-				total.add(arr.get(j));
-			}
-			System.out.println(total);
+			
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
